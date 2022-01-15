@@ -1,0 +1,385 @@
+/*reset css */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+/*--  menu-area-start  --*/
+.menu-area{
+	padding: 25px 0;
+	background: #fcd10d;
+	width: 100%
+}
+
+.menu-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-nav{
+	background: #fff;
+	margin-left: 30px;
+}
+
+.menu-nav ul li{
+	display: inline-block;
+}   
+
+.menu-nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 8px 22px;
+	border-right: 1px solid #e1e1e1; 
+	margin-left: -5px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+	border-top: 2px solid transparent !important;
+}      
+
+.menu-nav ul li:hover a{
+	background: #e1e1e1;
+	border-top: 2px solid #322905 !important;
+}
+   
+.menu-area .logo img {
+	display: inline-block;
+	width: 100px;
+}
+
+.menu-nav ul li:last-child a{
+	border-right: none;
+}
+
+.login-register ul li:first-child{
+	background: #10a813;
+}
+
+.login-register ul li{
+	display: inline-block;
+}
+
+.login-register ul li:first-child a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	padding: 8px 11px;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+}
+
+.login-register ul li:first-child img{
+	width: 13px;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.login-register ul li:last-child{
+	background: #fff;
+}
+
+.login-register ul:last-child a{
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	display: inline-block;
+	padding: 8px 11px;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+}
+
+.login-register ul li:last-child img{
+	width: 12px;
+	display: inline-block;
+	margin-right: 8px;
+}
+/*-- menu-area-end  --*/
+
+/*-- header-scetion area start --*/
+.header-scetion{
+	padding: 50px 0;
+	background: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.header-wrapper h2{
+	font-size: 22px;
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+	text-align: center;
+}
+
+.header-item{
+	padding: 50px 0;
+}
+
+.left-item{
+	margin-right: 45px;
+}
+
+.left-item img{
+	width: 320px;
+}
+
+.right-item{
+	margin-top: 30px;
+}
+
+.Easy{
+	background: url(../img/Bac1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 1px 15px;
+	display: flex;
+	margin-top: 5px;
+}
+
+.text h2{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #000000;
+}
+
+.Vector img{
+	width: 14px;
+}
+
+.Invest{
+	background: url(../img/Bac2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 3px 15px;
+	display: flex;
+	margin-top: 5px;
+}
+/*-- header-scetion area end --*/
+
+/*-- Started-scetion area start --*/
+.Started-scetion{
+	padding: 80px 0;
+	background: url(../img/why-join.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.Started-wrapper h2{
+	font-size: 25px;
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+	text-align: center;
+}
+
+.Started-item{
+	padding: 45px 0;
+}
+
+.Started-left{
+	margin-left: 112px;
+	margin-top: 66px;
+}
+
+.Started-left img{
+	width: 158px;
+}
+
+.Started-right p{
+	font-size: 17px;
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+.Started-right{
+	margin-left: -60px;
+	margin-top: 55px;
+}
+/*-- Started-scetion area end --*/
+
+/*-- footer-scetion area start --*/
+.footer-scetion{
+	background: #fff;
+}
+
+.footer-wrapper{
+	margin-top: 50px
+}
+
+.footer-logo{
+	margin-top: 105px;
+}
+
+.footer-logo img{
+	width: 150px;
+}
+
+.About{
+	border-right: 1px solid #d7d7d7;
+	padding-right: 30px;
+}
+
+.About h2{
+	font-size: 16px;
+	color: #161616;
+	padding: 0px 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.Why h2{
+	font-size: 15px;
+	border-bottom: 1px solid #d7d7d7;
+	padding: 9px 10px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.Why h2:first-child{
+	background: url(../img/join.png);
+}
+
+.Why h2:last-child{
+	border: none;
+}
+
+.Follow{
+	border-right: 1px solid #d7d7d7;
+	padding-right: 40px;
+	padding-bottom: 35px;
+}
+
+.Follow h2{
+	font-size: 16px;
+	padding: 0px 10px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.icon ul li{
+	padding: 9px 5px;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.icon ul li a{
+	font-size: 16px;
+	color: #4f4f4f;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.icon ul li a span{
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+.icon ul li:first-child span{
+	color: #3a5897;
+}
+
+.icon ul li:last-child span{
+	color: #dc4e41;
+}
+
+.icon ul li:nth-child(2) span:first-child {
+	color: #54aced;
+	border-radius: 50%;
+}
+
+.icon ul li:nth-child(3) span:first-child {
+	color: #6a453a;
+}
+
+.Newsletter{
+	margin-left: 40px;
+}
+
+.Newsletter h2{
+	font-size: 16px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;	
+}
+
+.Newsletter p{	
+	font-size: 14px;
+	margin-top: 37px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.Email input{
+	padding: 15px 10px;
+	background: #e4e4e4;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	width: 100%;
+	color: #898989;
+	font-size: 14px;
+}
+
+.form-btn{
+	padding: 25px 0;
+}
+
+.form-btn button{
+	outline: none;
+	display: inline-block;
+	padding: 7px 25px;
+	border:none;
+	color:#000000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	background: #ffb606;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/*-- footer-scetion area end --*/
+
+/*-- Copyright-scetion area start --*/
+.Copyright-scetion{
+	background: url(../img/Copyright-bg.png);
+	padding: 15px 0;
+	border-top: 1px solid #dddddd;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.Copyright-wrapper h2{
+	font-size: 16px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+/*-- Copyright-scetion area end --*/
+
+
+
+
+
